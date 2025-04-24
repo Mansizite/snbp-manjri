@@ -217,29 +217,29 @@ import { ArrowLeft } from "lucide-react";
 
 // ... (keep your existing categories and categoryImages arrays)
 const categories = [
-  { name: "independence-day", cover: "/images/independence-day/1.jpg" },
-  { name: "republic-day", cover: "/images/republic-day/1.jpg" },
-  { name: "annual-day", cover: "/images/annual-day/1.jpg" },
-  { name: "environment-day", cover: "/images/environment-day/1.jpg" },
-  { name: "science-exhibition", cover: "/images/science-exhibition/1.jpg" },
-  { name: "marathi-day", cover: "/images/marathi-day/1.jpg" },
-  { name: "dandiya-celebration", cover: "/images/dandiya-celebration/1.jpg" },
-  { name: "rakhi-celebration", cover: "/images/rakhi-celebration/1.jpg" },
-  { name: "smart-classrooms", cover: "/images/smart-classrooms/1.jpg" },
+  { name: "independence-day", cover: "/images/independence-day/1.JPG" },
+  { name: "republic-day", cover: "/images/republic-day/1.JPG" },
+  { name: "annual-day", cover: "/images/annual-day/1.JPG" },
+  { name: "environment-day", cover: "/images/environment-day/1.JPG" },
+  { name: "science-exhibition", cover: "/images/science-exhibition/1.JPG" },
+  { name: "marathi-day", cover: "/images/marathi-day/1.JPG" },
+  { name: "dandiya-celebration", cover: "/images/dandiya-celebration/1.JPG" },
+  { name: "rakhi-celebration", cover: "/images/rakhi-celebration/1.JPG" },
+  { name: "smart-classrooms", cover: "/images/smart-classrooms/1.JPG" },
 ];
 
 const categoryImages: Record<string, string[]> = {
-  "independence-day": Array.from({ length: 10 }, (_, i) => `/images/independence-day/${i + 1}.jpg`),
-  "republic-day": Array.from({ length: 10 }, (_, i) => `/images/republic-day/${i + 1}.jpg`),
-  "annual-day": Array.from({ length: 10 }, (_, i) => `/images/annual-day/${i + 1}.jpg`),
-  "marathi-day": Array.from({ length: 4 }, (_, i) => `/images/marathi-day/${i + 1}.jpg`),
-  "science-exhibition": Array.from({ length: 10 }, (_, i) => `/images/science-exhibition/${i + 1}.jpg`),
-  "children-day": Array.from({ length: 10 }, (_, i) => `/images/children-day/${i + 1}.jpg`),
-  "dandiya-celebration": Array.from({ length: 9 }, (_, i) => `/images/dandiya-celebration/${i + 1}.jpg`),
-  "constitutional-day": Array.from({ length: 10 }, (_, i) => `/images/constitutional-day/${i + 1}.jpg`),
-  "environment-day": Array.from({ length: 6 }, (_, i) => `/images/environment-day/${i + 1}.jpg`),
-  "smart-classrooms": Array.from({ length: 8 }, (_, i) => `/images/smart-classrooms/${i + 1}.jpg`),
-  "rakhi-celebration": Array.from({ length: 5}, (_, i) => `/images/rakhi-celebration/${i + 1}.jpg`),
+  "independence-day": Array.from({ length: 10 }, (_, i) => `/images/independence-day/${i + 1}.JPG`),
+  "republic-day": Array.from({ length: 10 }, (_, i) => `/images/republic-day/${i + 1}.JPG`),
+  "annual-day": Array.from({ length: 10 }, (_, i) => `/images/annual-day/${i + 1}.JPG`),
+  "marathi-day": Array.from({ length: 4 }, (_, i) => `/images/marathi-day/${i + 1}.JPG`),
+  "science-exhibition": Array.from({ length: 10 }, (_, i) => `/images/science-exhibition/${i + 1}.JPG`),
+  "children-day": Array.from({ length: 10 }, (_, i) => `/images/children-day/${i + 1}.JPG`),
+  "dandiya-celebration": Array.from({ length: 9 }, (_, i) => `/images/dandiya-celebration/${i + 1}.JPG`),
+  "constitutional-day": Array.from({ length: 10 }, (_, i) => `/images/constitutional-day/${i + 1}.JPG`),
+  "environment-day": Array.from({ length: 6 }, (_, i) => `/images/environment-day/${i + 1}.JPG`),
+  "smart-classrooms": Array.from({ length: 8 }, (_, i) => `/images/smart-classrooms/${i + 1}.JPG`),
+  "rakhi-celebration": Array.from({ length: 5}, (_, i) => `/images/rakhi-celebration/${i + 1}.JPG`),
 };
 
 export default function GalleryHome() {
